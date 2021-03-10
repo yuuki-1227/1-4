@@ -10,6 +10,11 @@ header {
   height: 15px 0;
   margin: 0 auto;
 }
+
+header .heading {
+  font-size: 32px; /*headerタグ内のheadingクラスのみに反映される*/
+}
+
 .main-visual {
   width: 100%;
   height: 300px;
@@ -41,8 +46,4 @@ header {
 footer {
   width: 100%;
   height: 120px;
-}
-
-header .heading {
-  font-size: 32px; /*headerタグ内のheadingクラスのみに反映される*/
 }
