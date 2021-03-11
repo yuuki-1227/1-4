@@ -5,59 +5,45 @@
   box-sizing: border-box;
 }
 
-.header {
-  width: 100%; /*横幅いっぱい*/
-  height: 120px; /*高さ120px*/
-  background-color: red; /*背景色red*/
+header {
+  width: 90%;
+  height: 15px 0;
+  margin: 0 auto;
+}
+
+header .heading {
+  font-size: 32px; /*headerタグ内のheadingクラスのみに反映される*/
 }
 
 .main-visual {
   width: 100%;
   height: 300px;
-  background-color: orange;
 }
 
 .main {
   width: 840px;
-  height: 1400px;
-  background-color: green;
+
   display: flex; /*Flexboxの利用*/
   justify-content: center; /*子要素の横並び・中央寄せ*/
   margin: 0 auto; /*中央寄せ（左右に余白がないとできない）*/
 }
 
-.footer {
-  width: 100%;
-  height: 120px;
-  background-color: blue;
-}
-
-.header-top {
-  width: 100%;
-  height: 70px;
-  background-color: hotpink;
-}
-
-.header-bottom {
-  width: 100%;
-  height: 50px;
-  background-color: pink;
-}
-
 .main-visual-content {
   width: 350px;
   height: 300px;
-  background-color: gold;
 }
 
 .blog {
   width: 600px;
-  height: 600px;
-  background-color: limegreen;
+  height: 1400px;
 }
 
 .sideber {
   width: 240px;
-  height: 600px;
-  background-color: palegreen;
+  height: 1400px;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
 }
