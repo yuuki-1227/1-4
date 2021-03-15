@@ -41,11 +41,6 @@ header .heading {
 }
 
 .main {
-  width: 840px;
-
-  display: flex; /*Flexboxの利用*/
-  justify-content: center; /*子要素の横並び・中央寄せ*/
-  margin: 0 auto; /*中央寄せ（左右に余白がないとできない）*/
 }
 
 .main-visual-content {
@@ -66,13 +61,9 @@ header .heading {
 }
 
 .blog {
-  width: 600px;
-  height: 1400px;
 }
 
 .sideber {
-  width: 240px;
-  height: 1400px;
 }
 
 footer {
