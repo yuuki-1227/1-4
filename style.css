@@ -10,12 +10,27 @@ a {
   text-decoration: none;
 }
 
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Bradley", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   height: 15px 0;
+  padding: 15px 0;
   margin: 0 auto;
   text-align: center;
   position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 .social i {
